@@ -529,11 +529,9 @@ nav {
   align-items: center;
   gap: 8rem;
 
-  animation: scroll 45s linear infinite;
+  animation: scroll 30s linear infinite;
 }
-.story__card img {
-  width: 100%; /* Ensure the image takes up the full width of the container */
-  height: 200px; /* Set a fixed height for consistency */
+.story__card img {/* Set a fixed height for consistency */
   object-fit: cover; /* Ensures the image fills the container without distortion */
   border-radius: 10px; /* Smooth edges for the image */
 }
